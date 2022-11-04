@@ -1,0 +1,1 @@
+export const useWindowDimensions = () => ({width: 0, height: 0});

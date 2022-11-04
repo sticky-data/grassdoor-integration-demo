@@ -1,0 +1,38 @@
+{
+  "name": "grassdoor-integration",
+  "version": "1.0.0",
+  "scripts": {
+    "build:native": "pilotjs-cli build",
+    "build:next": "next build",
+    "dev:web": "next dev",
+    "start:native": "expo start",
+    "start:web": "next"
+  },
+  "resolutions": {
+    "@waveplay/pilot": "2.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "dependencies": {
+    "@expo/next-adapter": "4.0.12",
+    "@types/react-native": "~0.69.1",
+    "@waveplay/pilot": "2.0.0",
+    "expo": "46.0.16",
+    "next": "13.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.6",
+    "react-native-web": "0.18.9"
+  },
+  "devDependencies": {
+    "@babel/core": "7.19.6",
+    "@nissy-dev/swc-plugin-react-native-web": "0.2.5",
+    "@types/react": "18.0.24",
+    "next-build-id": "3.0.0",
+    "next-compose-plugins": "2.2.1",
+    "next-transpile-modules": "9.1.0",
+    "pilotjs-cli": "^2.0.0",
+    "typescript": "4.8.4",
+    "webpack": "5.74.0"
+  }
+}
